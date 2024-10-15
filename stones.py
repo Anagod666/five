@@ -1,14 +1,14 @@
 import random
 
 
-def is_correct(a):
+def is_correct(num):
     try:
-        int(a)
+        int(num)
     except ValueError:
         exit("Некорректный ввод")
-    if int(a) > 3 or int(a) < 1:
+    if int(num) > 3 or int(num) < 1:
         exit("Некорректный ввод")
-    return int(a)
+    return int(num)
 
 
 move = 0
